@@ -317,9 +317,7 @@ header .logo img.retina {
 
 .jumbotron {
     /*background-color: #1e8cbe; background-color: rgba(30, 140, 190,0.55);*/
-    background-color: #E7F4F5;
-    background: url(../img/home-hero.jpg);
-    background-size: cover;
+    background-color: #80BCBD;
     color: #444;
     padding-top: 12%;
     padding-bottom: 10px;
@@ -329,6 +327,8 @@ header .logo img.retina {
 
 body#home .jumbotron {
 	min-height: 970px;
+	background: url(../img/home-hero.jpg);
+    background-size: cover;
 }
 
 .jumbotron.pageheader {
