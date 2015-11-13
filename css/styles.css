@@ -326,7 +326,7 @@ header .logo img.retina {
 }
 
 body#home .jumbotron {
-	min-height: 725px;
+	min-height: 730px;
     background: url(../img/home-hero.jpg);
     background-size: cover;
     background-position: center 100%;
@@ -336,7 +336,7 @@ body#home .jumbotron {
 body#home .jumbotron .container {
 	position: absolute;
     left: 30%;
-    top: 21%;
+    top: 20%;
 }
 
 .jumbotron.pageheader {
@@ -441,7 +441,6 @@ footer.container {
     letter-spacing: 0.1em;
     color: #888;
     text-align: center;
-    background: #F9f9f9;
 }
 
 @media (min-width: 62.8125em) {
