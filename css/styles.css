@@ -317,7 +317,7 @@ header .logo img.retina {
 
 .jumbotron {
     /*background-color: #1e8cbe; background-color: rgba(30, 140, 190,0.55);*/
-    background-color: #80BCBD;
+    background-color: #f4f4f4;
     color: #444;
     padding-top: 12%;
     padding-bottom: 10px;
@@ -337,7 +337,9 @@ body#home .jumbotron {
 }
 
 .jumbotron.pageheader h1 {	
-	color: #1E8CB9;
+	color: #4A4A4A;
+	font-size: 5rem;
+    letter-spacing: .5px;
 }
 
 body#portfolio-child .jumbotron.pageheader, body#page-child .jumbotron.pageheader {
@@ -483,6 +485,9 @@ footer.container .footer-copyright {
     float: right;
 }
 
+.footer-bottom p {
+	text-transform: uppercase;
+}
 
 
 
