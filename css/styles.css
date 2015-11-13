@@ -426,11 +426,14 @@ body#portfolio-child .jumbotron.pageheader, body#page-child .jumbotron.pageheade
 /*Footer*/
 
 footer.container {
-    margin: 30px auto;
+    margin: 0 auto;
+    margin-top: -10px;
+    padding: 20px 5px;
     font-size: 12px;
     letter-spacing: 0.1em;
     color: #888;
     text-align: center;
+    background: #F9f9f9;
 }
 
 @media (min-width: 62.8125em) {
@@ -487,6 +490,8 @@ footer.container .footer-copyright {
 
 .footer-bottom p {
 	text-transform: uppercase;
+	float: left;
+    font-family: 'Roboto','OpenSans', Arial, sans-serif;
 }
 
 
