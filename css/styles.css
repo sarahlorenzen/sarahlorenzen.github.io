@@ -326,9 +326,17 @@ header .logo img.retina {
 }
 
 body#home .jumbotron {
-	min-height: 970px;
-	background: url(../img/home-hero.jpg);
+	min-height: 725px;
+    background: url(../img/home-hero.jpg);
     background-size: cover;
+    background-position: center 100%;
+}
+
+
+body#home .jumbotron .container {
+	position: absolute;
+    left: 30%;
+    top: 21%;
 }
 
 .jumbotron.pageheader {
