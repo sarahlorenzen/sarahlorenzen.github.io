@@ -6,6 +6,11 @@ body {
     color: #34495e;
 }
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 /*Header*/
 
 header {
