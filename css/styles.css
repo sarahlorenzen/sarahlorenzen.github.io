@@ -155,6 +155,24 @@ body#home .jumbotron .container {
     max-width: 560px;
 }
 
+body#home .jumbotron .btn-lg {
+    padding: 10px 30px;
+    background: transparent;
+    border-color: #fff;
+    margin-left: -10%;
+    margin-top: 5%;
+    text-decoration: none;
+}
+
+body#home .jumbotron .btn-lg a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body#home .jumbotron .btn-lg a:hover {
+    text-decoration: none;
+}
+
 .jumbotron.pageheader {
 	padding-top: 10%;
 
