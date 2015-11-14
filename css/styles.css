@@ -336,7 +336,21 @@ footer.container .footer-copyright {
     margin: 20px 0 0;
 }
 
+#social i {
+    font-size: 40px;
+    color: #4a4a4a;
+    padding-left: 10px;
+}
 
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
 /*Typography*/
 
