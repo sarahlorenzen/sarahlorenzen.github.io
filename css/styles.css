@@ -239,10 +239,11 @@ body#portfolio-child .jumbotron.pageheader, body#page-child .jumbotron.pageheade
 }
 
 .skills {
-	background-color: #f4f4f4;
-	margin-left: 50px;
+    margin-left: 50px;
     width: 290px;
-    padding: 5px 15px 20px;
+    padding: 10px 0px 20px 20px;
+    margin-top: 15px;
+    border: 1px solid #f0f0f0;
 }
 
 /*Footer*/
@@ -322,7 +323,7 @@ footer.container .footer-copyright {
 h1,
 h2,
 h3 {
-  font-family: 'Roboto','OpenSans', Arial, sans-serif;
+  font-family: 'Roboto','OpenSans', Arial, sans-serif; 
   font-weight: 500;
 }
 
@@ -331,10 +332,11 @@ p, li {
 }
 
 .intro p, p.intro {
-    font-family: 'Merriweather', Georgia, serif;
+    font-family: 'Roboto','OpenSans', Arial, sans-serif;
     font-size: 3em;
     font-weight: 300;
     -webkit-margin-before: 0;
+    margin: 30px 0 10px 0;
 }
 
 .skills h3 {
