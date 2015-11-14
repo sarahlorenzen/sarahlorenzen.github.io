@@ -151,7 +151,8 @@ body#home .jumbotron {
 body#home .jumbotron .container {
 	position: absolute;
     left: 30%;
-    top: 20%;
+    top: 26%;
+    max-width: 560px;
 }
 
 .jumbotron.pageheader {
@@ -404,13 +405,64 @@ p, li {
 @media (min-width: 1200px) { ... }
 
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { ... }
+@media (min-width: 540px) and (max-width: 768px) { 
+    body#home .jumbotron .container {
+    position: absolute;
+    left: 10%;
+    top: 22%;
+    } 
+
+    .footer-bottom p {
+    margin: 10px 0;
+    padding: 0 20px;
+    }
+
+    footer.container .footer-copyright {
+    float: none;
+    padding: 10px 0;
+    }
+
+
+}
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) { ... }
 
 /* Landscape phones and down */
+@media (max-width: 540px) {
+    body#home .jumbotron .container {
+    position: absolute;
+    left: 4%;
+    top: 18%;
+    max-width: 100%;
+    padding: 0 30px;
+    }
+
+    body#home .jumbotron {
+    min-height: 500px;
+    }
+
+    .footer-bottom p {
+    margin: 10px 0;
+    padding: 0 20px;
+    }
+
+    footer.container .footer-copyright {
+    float: none;
+    padding: 10px 0;
+    }
+
+    span.site-title {
+    padding: 20px 0;
+    }
+
+    .navbar-default .navbar-toggle {
+    margin-top: 40px;
+    }
+}
+
 @media (max-width: 480px) { ... }
+
 
 
 
