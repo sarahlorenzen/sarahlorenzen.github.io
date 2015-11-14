@@ -326,7 +326,8 @@ footer.container .nav-footer a {
 
 footer.container .footer-copyright {
     float: right;
-    padding: 20px 5px;
+    padding: 12px 5px;
+    min-width: 30%;
 }
 
 .footer-bottom p {
@@ -342,14 +343,10 @@ footer.container .footer-copyright {
     padding-left: 10px;
 }
 
-.fa {
-    display: inline-block;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+.social .fa {
+    font-size: 28px;
+    width: 80px;
+    float: right;
 }
 
 /*Typography*/
